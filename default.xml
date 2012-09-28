@@ -9,6 +9,10 @@
            fetch="git://github.com/couchbase/"
            review="review.couchbase.org" />
 
+  <remote  name="dlvenable"
+           fetch="git://github.com/dlvenable/"
+           review="review.couchbase.org" />
+
   <default revision="master" remote="couchbase" />
 
 
@@ -23,7 +27,7 @@
   <project path="WorkerBee" name="iOS-WorkerBee"/>
 
   <project path="vendor/iMonkey" name="iMonkey" remote="couchbaselabs"/>
-  <project path="vendor/iErl14" name="iErl" />
+  <project path="vendor/iErl14" name="iErl" remote="allogy" revision="67fbe3ed20cc57483c2ddd9eb58a72ec4fea8ebf"/>
   <project path="vendor/ios-openssl" name="ios-openssl" remote="couchbaselabs"/>
 
 </manifest>
