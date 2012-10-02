@@ -9,6 +9,9 @@
            fetch="git://github.com/couchbase/"
            review="review.couchbase.org" />
 
+  <remote  name="st3fan"
+           fetch="git://github.com/st3fan/" />
+
   <remote  name="dlvenable"
            fetch="git://github.com/dlvenable/"
            review="review.couchbase.org" />
@@ -28,6 +31,6 @@
 
   <project path="vendor/iMonkey" name="iMonkey" remote="dlvenable" revision="xcode-4.5"/>
   <project path="vendor/iErl14" name="iErl" remote="dlvenable" revision="xcode-4.5"/>
-  <project path="vendor/ios-openssl" name="ios-openssl" remote="couchbaselabs"/>
+  <project path="vendor/ios-openssl" name="ios-openssl" remote="st3fan"/>
 
 </manifest>
